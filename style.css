@@ -1,14 +1,21 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+
 body {
     height: 300vh;
     margin: 0;
     color: white;
     font-size: 1.5em;
+    text-align: center;
 }
 
 .container {
     background: blue;
-    margin: 3em auto 0 auto;
     width: 70%;
+    margin: 3em auto 0 auto;
+    height: 40%;
     padding-top: 2em;
     position: relative;
 }
@@ -21,22 +28,24 @@ body {
 
 .static {
     background: red;
+
 }
 
 .relative {
-    background: gold;
-    position: relative;
+    background: yellow;
     color: black;
-    top: ;
-    left: ;
-    right: ;
-    bottom: ;
+    position: relative;
+    top: 3em;
+    left: 4em;
+    /* right: ;
+    bottom: ; */
 }
 
 .absolute {
     background: purple;
     position: absolute;
-    top: 0;
+    top: -25px;
+    right: -4em;
 }
 
 .fixed {
@@ -46,24 +55,26 @@ body {
     right: 0;
     margin: 1em;
     border-radius: 45px;
+    z
 }
 
+
 .sticky {
-    background: lightgreen;
+    background: green;
     position: sticky;
     top: 0;
 }
+
 
 nav {
     background: black;
     position: sticky;
     top: 0;
-    text-align: center;
     z-index: 1;
 }
 
 nav li {
-    list-style: none;
+    list-style:  none;
     display: inline-block;
     margin-inline: 2em;
     padding: 1em 0 1em 0;
