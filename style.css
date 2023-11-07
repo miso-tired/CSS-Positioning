@@ -1,0 +1,40 @@
+body {
+    height: 300vh;
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
+}
+
+.container {
+    background: blue;
+    margin: 3em auto 0 auto;
+    width: 70%;
+    padding-top: 2em;
+    position: relative;
+}
+
+.container div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.static {
+    background: red;
+}
+
+.relative {
+    background: gold;
+    position: relative;
+    color: black;
+    top: ;
+    left: ;
+    right: ;
+    bottom: ;
+}
+
+.absolute {
+    background: purple;
+    position: absolute;
+    top: 0;
+}
