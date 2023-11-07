@@ -38,3 +38,33 @@ body {
     position: absolute;
     top: 0;
 }
+
+.fixed {
+    background: orange;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1em;
+    border-radius: 45px;
+}
+
+.sticky {
+    background: lightgreen;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background: black;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-inline: 2em;
+    padding: 1em 0 1em 0;
+}
